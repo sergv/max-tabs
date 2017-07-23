@@ -7,19 +7,7 @@ Max Tabs is a simple Firefox extension that does these:
 - Control and restrict oneself from opening too many tabs.
 - Prevent tabs from overloading and overflowing the tab bar.
 
-Development
----
-
-Note: This repo does **NOT** rely on global install of [`jpm`](https://github.com/mozilla/jpm). It's installed locally.
-
-- `npm install` - Install all dependencies
-- `npm start` - Run the extension on Firefox (stable) with a new temporary profile
-- `npm run package` - Package the extension into an XPI file
-
-Localization
----
-
-[Help translate Max Tabs!](https://www.transifex.com/projects/p/max-tabs/)
+Forked from: <https://github.com/cheeaun/max-tabs>
 
 License
 ---
