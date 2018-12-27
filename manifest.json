@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Max Tabs (Web Extension)",
   "short_name": "Max Tabs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Set maximum number of opened tabs in a window.",
   "default_locale": "en",
   "icons": {
@@ -25,7 +25,8 @@
   },
   "permissions": [
     "notifications",
-    "storage"
+    "storage",
+    "tabs"
   ],
   "applications": {
     "gecko": {

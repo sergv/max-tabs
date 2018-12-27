@@ -32,8 +32,9 @@ function updateButton(numTabs) {
 
 async function queryNumTabs() {
   let tabs = await browser.tabs.query({
-    currentWindow: true,
-    pinned: false
+    // currentWindow: true,
+    pinned: false,
+    url: ["http://*/*", "https://*/*"]
   });
   return tabs.length;
 }
